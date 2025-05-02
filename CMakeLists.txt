@@ -12,10 +12,13 @@ endif()
 project ("parallelmatrix")
 
 # Добавьте источник в исполняемый файл этого проекта.
-add_executable (parallelmatrix "parallelmatrix.cpp" "parallelmatrix.h")
+add_executable (parallelmatrix1 "lab1/parallelmatrix.cpp" "lab1/parallelmatrix.h")
+add_executable (parallelmatrix2 "lab2/parallelmatrix2.cpp" "lab2/parallelmatrix.h")
+
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
-  set_property(TARGET parallelmatrix PROPERTY CXX_STANDARD 20)
+  set_property(TARGET parallelmatrix1 PROPERTY CXX_STANDARD 20)
+  set_property(TARGET parallelmatrix2 PROPERTY CXX_STANDARD 20)
 endif()
 
 # TODO: Добавьте тесты и целевые объекты, если это необходимо.
