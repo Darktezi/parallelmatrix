@@ -14,6 +14,7 @@ project ("parallelmatrix")
 # Добавьте источник в исполняемый файл этого проекта.
 add_executable (parallelmatrix1 "lab1/parallelmatrix.cpp" "lab1/parallelmatrix.h")
 add_executable (parallelmatrix2 "lab2/parallelmatrix2.cpp" "lab2/parallelmatrix.h")
+add_executable (parallelmatrix4 "lab4/cudamatrix.cu")
 
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
