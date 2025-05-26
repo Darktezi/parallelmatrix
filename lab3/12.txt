@@ -1,0 +1,10 @@
+Size: 100 Average MPI multiplication time: 8.12769e-05 seconds
+Size: 200 Average MPI multiplication time: 0.000616717 seconds
+Size: 300 Average MPI multiplication time: 0.0025197 seconds
+Size: 400 Average MPI multiplication time: 0.00601096 seconds
+Size: 500 Average MPI multiplication time: 0.0149849 seconds
+Size: 600 Average MPI multiplication time: 0.0345095 seconds
+Size: 700 Average MPI multiplication time: 0.0648032 seconds
+Size: 800 Average MPI multiplication time: 0.243543 seconds
+Size: 900 Average MPI multiplication time: 0.111228 seconds
+Size: 1000 Average MPI multiplication time: 0.563303 seconds
